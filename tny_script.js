@@ -66,3 +66,16 @@ var dist = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 console.log(distance(2, 3, 5, 7));
 setTimeout(runClock(), 5);
 */
+setInterval("Area()", 1);
+
+
+
+function Area(){
+   var width = Math.ceil(Math.random() * 10);
+   var length = Math.ceil(Math.random() * 10);
+   var area = width * length;
+   console.log("The rectangle has a length of " + length + " and a width of " + width + ", so the area is " + area);
+   //the rectangle has a length of 4 and a width of 3, so the are is 12
+}
+console.log(Area());
+
